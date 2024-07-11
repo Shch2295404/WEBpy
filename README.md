@@ -11,7 +11,7 @@ Introduction to Web Development
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Russian Cuisine Ratings</title>
+    <title>Рейтинг блюд русской кухни</title>
     <style>
         table {
             width: 100%;
@@ -36,42 +36,42 @@ Introduction to Web Development
     <table>
         <thead>
             <tr>
-                <th>Name of the Dish</th>
-                <th>Rating (1 to 10)</th>
-                <th>Link to Recipe</th>
-                <th>Photo of the Dish</th>
+                <th>Наименование блюда</th>
+                <th>Рейтинг (от 1 до 10)</th>
+                <th>Ссылка на рецепт</th>
+                <th>Фото блюда</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Borscht</td>
                 <td>9</td>
-                <td><a href="https://www.example.com/borscht-recipe" target="_blank">Recipe</a></td>
-                <td><img src="https://www.example.com/images/borscht.jpg" alt="Борщ"></td>
+                <td><a href="https://www.tveda.ru/recepty/nastoyaschiy-borsch/" target="_blank">Recipe</a></td>
+                <td><img src="https://cdn.tveda.ru/thumbs/c4c/c4cb83cd697482955737c62d87e88dcb/60ca468f96382e8e71c5c75917b6b0f1.jpg" alt="Борщ"></td>
             </tr>
             <tr>
-                <td>Pelmeni</td>
+                <td>Cheesecakes</td>
                 <td>8</td>
-                <td><a href="https://www.example.com/pelmeni-recipe" target="_blank">Recipe</a></td>
-                <td><img src="https://www.example.com/images/pelmeni.jpg" alt="Пельмени"></td>
+                <td><a href="https://www.tveda.ru/recepty/syrnicki/" target="_blank">Recipe</a></td>
+                <td><img src="https://cdn.tveda.ru/thumbs/257/25767320c2daab2438511836951dfdbc/5a27df19095172bf07c1d5d7512c31a3.jpg" alt="Сырники"></td>
             </tr>
             <tr>
-                <td>Blini</td>
+                <td>Cutlets</td>
                 <td>7</td>
-                <td><a href="https://www.example.com/blini-recipe" target="_blank">Recipe</a></td>
-                <td><img src="https://www.example.com/images/blini.jpg" alt="Блины"></td>
+                <td><a href="https://www.tveda.ru/recepty/kotlety-s-kartofelnym-pyure/" target="_blank">Recipe</a></td>
+                <td><img src="https://cdn.tveda.ru/thumbs/52b/52ba3a1a933efb0e4a47f2cf7785bc33/18459b061c7109ebd0785fe347870fbd.jpg" alt="Котлеты"></td>
             </tr>
             <tr>
-                <td>Olivier Salad</td>
+                <td>Beef stroganoff</td>
                 <td>8.5</td>
-                <td><a href="https://www.example.com/olivier-salad-recipe" target="_blank">Recipe</a></td>
-                <td><img src="https://www.example.com/images/olivier-salad.jpg" alt="Салат Оливье"></td>
+                <td><a href="https://www.tveda.ru/recepty/befstroganov/" target="_blank">Recipe</a></td>
+                <td><img src="https://cdn.tveda.ru/thumbs/6fa/6faf1f99b33d590afe06e4a2f1006e8c/2b838ff9a2d2805e0213c66a9c2be14a.jpg" alt="Бефстроганов"></td>
             </tr>
             <tr>
                 <td>Shchi</td>
                 <td>7.5</td>
-                <td><a href="https://www.example.com/shchi-recipe" target="_blank">Recipe</a></td>
-                <td><img src="https://www.example.com/images/shchi.jpg" alt="Щи"></td>
+                <td><a href="https://www.tveda.ru/recepty/shchi-s-fasolyu-i-kopchyenymi-ryebrami/" target="_blank">Recipe</a></td>
+                <td><img src="https://cdn.tveda.ru/thumbs/e15/e15ba0c3fd752f96457008569d8ac17a/86600ea17bd32050d93519e5aca4e779.jpg" alt="Щи"></td>
             </tr>
         </tbody>
     </table>
