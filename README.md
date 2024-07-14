@@ -1,6 +1,93 @@
 # WEBpy
 Introduction to Web Development
 
+This code snippet is an HTML document that creates a simple webpage displaying information cards for users. 
+The styling is defined in the embedded CSS between the <style> tags. 
+It centers the content, styles the card layout with shadows and padding, 
+  and defines styles for the individual elements inside the card such as images, headings, and paragraphs. 
+The <body> section contains three user cards, each with an image, name, email, date of birth, 
+  and city information inside a div element with the class "card".
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информационные карточки пользователей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .card {
+            width: 400px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            margin: 20px;
+            padding: 16px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .card p {
+            margin: 8px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://raw.githubusercontent.com/Shch2295404/WEBpy/289de2b659571a3e15a534cae25bc9b58b06b7f4/img/1.jpg" alt="Uer 1 Photo">
+        <h2>Иванов Иван Иванович</h2>
+        <p>Email: ivanov@mail.ru</p>
+        <p>Дата рождения: 1970-01-01</p>
+        <p>Город: Москва</p>
+    </div>
+
+    <div class="card">
+        <img src="https://raw.githubusercontent.com/Shch2295404/WEBpy/289de2b659571a3e15a534cae25bc9b58b06b7f4/img/2.jpg" alt="User 2 Photo">
+        <h2>Петров Петр Петрович</h2>
+        <p>Email: petrov@@mail.ru</p>
+        <p>Дата рождения: 1985-05-15</p>
+        <p>Город: Санкт-Петербург</p>
+    </div>
+
+    <div class="card">
+        <img src="https://raw.githubusercontent.com/Shch2295404/WEBpy/289de2b659571a3e15a534cae25bc9b58b06b7f4/img/3.jpg" alt="User 3 Photo">
+        <h2>Сидорова Анна Сергеевна</h2>
+        <p>Email: sidorova@@mail.ru</p>
+        <p>Дата рождения: 1992-07-20</p>
+        <p>Город: Казань</p>
+    </div>
+</body>
+</html>
+```
+
  This code snippet represents an HTML document displaying a list of Russian cuisine dishes with ratings, links to recipes, and images of the dishes. 
  The HTML includes styling for a table layout, 
  including borders, padding, background colors, and image sizes.
