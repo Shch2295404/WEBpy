@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информационные карточки пользователей</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        .card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            margin: 20px;
+            padding: 16px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 16px;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+
+        .card p {
+            margin: 8px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="https://www.example.com/images/user1.jpg" alt="User 1 Photo">
+        <h2>Иванов Иван Иванович</h2>
+        <p>Email: ivanov@mail.ru</p>
+        <p>Дата рождения: 1970-01-01</p>
+        <p>Город: Москва</p>
+    </div>
+
+    <div class="card">
+        <img src="https://www.example.com/images/user2.jpg" alt="User 2 Photo">
+        <h2>Петров Петр Петрович</h2>
+        <p>Email: petrov@@mail.ru</p>
+        <p>Дата рождения: 1985-05-15</p>
+        <p>Город: Санкт-Петербург</p>
+    </div>
+
+    <div class="card">
+        <img src="https://www.example.com/images/user3.jpg" alt="User 3 Photo">
+        <h2>Сидорова Анна Сергеевна</h2>
+        <p>Email: sidorova@@mail.ru</p>
+        <p>Дата рождения: 1992-07-20</p>
+        <p>Город: Казань</p>
+    </div>
+</body>
+</html>
