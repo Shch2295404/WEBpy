@@ -4,13 +4,12 @@ app = Flask(__name__)
 
 
 @app.route("/")
-def hello_world():
-    return "Hello World!"
-
-
-@app.route("/new/")
-def new():
-    return "new page"
+@app.route("/<password>/")
+def hello_world(password=None):
+    if password == "1519":
+        return f"Доступ разрешён"
+    else:
+        return f"Доступ запрещён"
 
 
 if __name__ == "__main__":
