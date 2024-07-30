@@ -13,17 +13,17 @@ def hello_world(password=None):
 
 
 @app.route("/")
-def films():
+def index():
     return render_template("index.html")
 
 
 @app.route("/contacts/")
-def person():
+def contacts():
     return render_template("contacts.html")
 
 
 @app.route("/blog/")
-def about():
+def blog():
     return render_template("blog.html")
 
 
