@@ -1,3 +1,9 @@
+# This code snippet creates a Flask web application
+# with routes for "/" (index), "/contacts/", and "/blog/".
+# The hello_world function checks if a password is provided in the URL
+# and returns a message based on its value.
+# If the password is "1519",
+# it allows access; otherwise, it denies access.
 from flask import Flask, render_template
 
 app = Flask(__name__)
